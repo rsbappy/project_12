@@ -1,0 +1,74 @@
+    @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@300&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: rgb(189, 124, 4);
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .wrapper {
+        margin-top: 10%;
+    }
+    
+    .wrapper h1 {
+        font-family: 'Allura', cursive;
+        font-size: 5rem;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10%;
+    }
+    
+    .team {
+        display: flex;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .team .team_member {
+        background-color: #fff;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 320px;
+        height: auto;
+        padding: 30px;
+        line-height: 25px;
+        color: #8e8b8b;
+        position: relative;
+    }
+    
+    .team .team_member h3 {
+        color: rgb(156, 121, 4);
+        font-size: 25px;
+        margin-top: 70px;
+    }
+    
+    .team .team_member .role {
+        color: #ccc;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 12px 0;
+    }
+    
+    .team .team_member .team_img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: 30%;
+        bottom: 20%;
+        background-color: rgb(187, 17, 17);
+    }
+    
+    .team .team_member .team_img img {
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+        border-radius: 50%;
+    }
